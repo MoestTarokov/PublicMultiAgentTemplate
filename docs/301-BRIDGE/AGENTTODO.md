@@ -15,3 +15,5 @@
 ---
 
 ## TODO記載開始位置
+
+- [x] #TID-1 README を docs/README.md に戻して公開前状態を整備
