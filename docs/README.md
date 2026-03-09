@@ -173,7 +173,7 @@ sandbox = "unelevated"
 ### codex.explorer.toml:
 ```codex.explorer.toml
 model = "gpt-5.4"
-model_reasoning_effort = "medium"
+model_reasoning_effort = "low"
 
 sandbox_mode = "read-only"
 developer_instructions = """
@@ -220,7 +220,7 @@ BOOT解決は CWD 相対ではなく、リポジトリルート基準（`git rev
 ### codex.reviewer.toml
 ```codex.reviewer.toml
 model = "gpt-5.4"
-model_reasoning_effort = "xhigh"
+model_reasoning_effort = "high"
 
 sandbox_mode = "read-only"
 developer_instructions = """
@@ -243,7 +243,7 @@ BOOT解決は CWD 相対ではなく、リポジトリルート基準（`git rev
 ### codex.worker.toml
 ```codex.worker.toml
 model = "gpt-5.4"
-model_reasoning_effort = "high"
+model_reasoning_effort = "medium"
 sandbox_mode = "danger-full-access"
 
 developer_instructions = """
@@ -266,7 +266,7 @@ BOOT解決は CWD 相対ではなく、リポジトリルート基準（`git rev
 ### codex.fastworker.toml
 ```codex.fastworker.toml
 model = "gpt-5.3-codex"
-model_reasoning_effort = "medium"
+model_reasoning_effort = "low"
 
 sandbox_mode = "danger-full-access"
 
