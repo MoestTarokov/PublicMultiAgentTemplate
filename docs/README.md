@@ -40,10 +40,11 @@ root(メインエージェントは)基本的にRead-only + プランモード�
 
 ## 最初にやること
 
-1. [docs/100-PROJECT/101-README_PROJECT.md](./100-PROJECT/101-README_PROJECT.md) に、プロジェクト名・課題・スコープ・成果物・制約を記入する
+1. [docs/100-PROJECT/101-README_PROJECT.md](./100-PROJECT/101-README_PROJECT.md) に、プロジェクト名・課題・スコープ・成果物・制約などを記入する
 2. 必要に応じて [docs/100-PROJECT/102-NON_GOALS.md](./100-PROJECT/102-NON_GOALS.md) から [docs/100-PROJECT/112-E2E_CHECKLIST.md](./100-PROJECT/112-E2E_CHECKLIST.md) までを埋める
 3. 初期記入後にコミットする
-4. [docs/500-REPOSITORYSETUP.md](./500-REPOSITORYSETUP.md) を読み、テンプレートを実プロジェクト向けに整備する
+4. [docs/500-REPOSITORYSETUP.md](./500-REPOSITORYSETUP.md) をエージェントに読ませてテンプレートを実プロジェクト向けに整備する
+（準備完了）
 5. 新しい作業コンテキストでは、最初に [docs/551-AGENT_ROOT_BOOT.md](./551-AGENT_ROOT_BOOT.md) をエージェントへ読ませて開始する
 
 ## 推奨する開始プロンプト
